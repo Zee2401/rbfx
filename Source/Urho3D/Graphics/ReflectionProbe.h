@@ -215,7 +215,7 @@ public:
 
     void SetBoxProjectionUsed(bool useBoxProjection);
     bool IsBoxProjectionUsed() const { return useBoxProjection_; }
-    void SetProjectionBox(const BoundingBox& box);
+    void SetProjectionBox(const BoundingBox& box) { projectionBox_ = box; }
     const BoundingBox& GetProjectionBox() const { return projectionBox_; }
 
     const CubemapRenderingSettings& GetCubemapRenderingSettings() const { return cubemapRenderingSettings_; }
