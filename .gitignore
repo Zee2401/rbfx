@@ -136,3 +136,7 @@ packaging/nuget/local-repository/
 packaging/nuget/out/
 packaging/nuget/in/
 packaging/nuget/rbfx-*.zip
+
+# Node.js
+node_modules/
+package-lock.json
