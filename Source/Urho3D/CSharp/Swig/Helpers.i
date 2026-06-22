@@ -88,6 +88,6 @@
         Urho3DRegister##NAME##Callback(NAME##DelegateInstance);
         return NAME##DelegateInstance;
     }
+  }
 %}
-%pragma(csharp) imclasscode=
 %enddef
