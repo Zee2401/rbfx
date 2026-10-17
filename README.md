@@ -17,7 +17,6 @@ It is an experimental fork of [Urho3D](https://github.com/urho3d/Urho3D) game en
 **Note**: The Framework is not yet released and is undergoing active development.
 Backward compatibility is (mostly) preserved on resource level, but C++ API is prone to changes.
 
-
 ## Using the Framework
 
 There are two template projects that you can use as example.
@@ -47,7 +46,6 @@ available for the latest successful build of `master` branch.
 * It is recommended to run Release binaries (`bin/Release/` or `bin/RelWithDebInfo/`).
   Debug binaries may require additional dependencies in order to run (e.g. Win10 SDK).
 
-
 ## Supported Platforms
 
 | Graphics API/Platform | Windows | UWP | Linux | MacOS | iOS | Android | Web |
@@ -61,7 +59,6 @@ available for the latest successful build of `master` branch.
 
 (*) `Vulkan` is supported on MacOS and iOS via `MoltenVK`. Additional setup is required.
 
-
 ## Links
 
 * [Latest Binaries for Desktop Platforms](https://github.com/rbfx/rbfx/releases/tag/latest)
@@ -73,7 +70,6 @@ available for the latest successful build of `master` branch.
 * [Documentation Repository](https://github.com/rbfx/rbfx-docs) for documentation issues and pull requests
 
 * [Discord Server](https://discord.gg/XKs73yf)
-
 
 ## Reasons to use
 
@@ -91,7 +87,6 @@ Here are some reasons why you may want to try this one:
 
 * If you already use Urho3D, you may want to try this framework if you like Urho3D
     but you are not fully satisfied with current Urho3D feature set.
-
 
 ## Reasons NOT to use
 
@@ -116,7 +111,6 @@ Here are some reasons why you may want to try this one:
 * You want C#-oriented Urho3D.
     While this framework *does* have C# bindings, C# is not a first-class citizen here and its support is lacking.
     Consider using [Urho.Net](https://github.com/Urho-Net).
-
 
 ## Screenshots
 
